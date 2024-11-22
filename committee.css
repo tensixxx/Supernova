@@ -1,0 +1,123 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+
+main {
+    padding: 0px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+}
+
+.hero-content p {
+    font-size: 40px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.welcome-message {
+    padding: 20px 0;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.welcome-message p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.committees {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.committees .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.committees .committee {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+}
+
+.committees .committee img {
+
+    width: 90%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.committees .committee h2 {
+    margin: 10px 0;
+}
+
+.committees .committee p {
+    margin-bottom: 20px;
+}
+
+.committees .committee .learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.committees .committee .learn-more-button:hover {
+    background: #D8BEC8;
+}
+
+.hero1 {
+    background: url('/images/city.png') no-repeat center center/cover;
+    color: white;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content1 {
+
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.hero-content1 h1 {
+    font-size: 60px;
+}
+
+.hero-content1 p {
+    font-size: 40px;
+}
